@@ -9,6 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let notiCenter = NotificationCenter.default
+    
+    var observer : NSObjectProtocol?
 
     override func viewDidLoad() {
         super.viewDidLoad()
